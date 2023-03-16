@@ -5,3 +5,4 @@ install nodejs
 cek intall node -v
 npm -v
 npm init
+npm install --save expres mysql body-parser
