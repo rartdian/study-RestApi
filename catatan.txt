@@ -6,3 +6,10 @@ cek intall node -v
 npm -v
 npm init
 npm install --save expres mysql body-parser
+git push origin master
+install expressjs extension
+
+setting terminal launch profile git bash
+
+menambahkan port 3000 di server.js
+panggil server node server.js
