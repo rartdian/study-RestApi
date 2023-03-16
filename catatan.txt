@@ -1,2 +1,6 @@
 arsitekturnya dari client merekues ke server 
 untuk get/mengambil data, post untuk menyimpan,put data yg disimpan di db bisa diambil berdasarkan idnya dan di edit, delete
+
+install nodejs
+cek intall node -v
+npm -v
