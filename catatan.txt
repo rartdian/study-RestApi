@@ -21,3 +21,5 @@ di file server tambahkan
 //panggil routes
 var routes = require('./routes');
 routes(app);
+
+menambahkan menampilkan data mahasiswa di controller.js
