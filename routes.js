@@ -5,4 +5,9 @@ module.exports = function(app){
 
     app.route('/')
         .get(jsonku.index);
+
+
+//untuk menampilkan data dari controller
+app.route('/tampil')
+    .get(jsonku.tampilsemuamahasiswa);
 }
