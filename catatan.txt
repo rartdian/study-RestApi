@@ -13,3 +13,5 @@ setting terminal launch profile git bash
 
 menambahkan port 3000 di server.js
 panggil server node server.js
+
+nenambahkan file server.js, koneksi.js, res.js, controller.js, routes.js
