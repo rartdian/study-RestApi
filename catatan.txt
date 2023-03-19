@@ -26,3 +26,5 @@ menambahkan menampilkan data mahasiswa di controller.js
 
 setelah itu pindah ke routes.js tambahkan kode route untuk memanggil dari controllerjs
 //7:43 / 12:25  
+
+menampilkan berdasarkan id pada file controller.js
