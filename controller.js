@@ -38,6 +38,7 @@ exports.tambahMahasiswa = function (req, res) {
    var jurusan = req.body.jurusan;
 
    connection.query('INSERT INTO mahasiswa (nim,nama,jurusan) VALUES(?,?,?)',
+   [nim, nama, jurusan],
     function (error, rows, fields) {
         if (error) {
             console.log(error);
