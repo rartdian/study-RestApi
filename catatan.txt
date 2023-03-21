@@ -28,3 +28,9 @@ setelah itu pindah ke routes.js tambahkan kode route untuk memanggil dari contro
 //7:43 / 12:25  
 
 menampilkan berdasarkan id pada file controller.js
+
+catatan post
+body adalah data yg akan diinputkan dari postman
+kita menggunakan postman untuk mengecek APi
+install postman browser chrome
+isikan key dan value lalu send
