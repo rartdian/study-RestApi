@@ -34,3 +34,5 @@ body adalah data yg akan diinputkan dari postman
 kita menggunakan postman untuk mengecek APi
 install postman browser chrome
 isikan key dan value lalu send
+
+membuat module  merubah data berdasarkan id
