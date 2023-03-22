@@ -67,6 +67,20 @@ var jurusan = req.body.jurusan;
     );
 }
 
+//hapus mahasiswa dari id
+exports.hapusMahasiswa = function (req, res) {
+var id = req.body.id_mahasiswa;
+   connection.query('DELETE FROM mahasiswa Where id_mahasiswa=?', [id],
+   function (error, rows, fields){
+    if (error){
+        console.log (error);
+        } else {
+            response.ok ("berhasil hapus data", res)
+        }
+   }); 
+}
+
+
 
 
 

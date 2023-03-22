@@ -1,5 +1,7 @@
 'use strict';
 
+const { json } = require('body-parser');
+
 module.exports = function(app){
     var jsonku = require('./controller');
 
@@ -7,13 +9,15 @@ module.exports = function(app){
         .get(jsonku.index);
 
 
-//untuk menampilkan data dari controller
-app.route('/tampil')
-    .get(jsonku.tampilsemuamahasiswa);
-app.route('/tampil/:id')
-    .get(jsonku.tampilberdasarkanid);
-app.route('/tambah')
-    .post(jsonku.tambahMahasiswa);
-app.route('/ubah')
-    .put(jsonku.ubahMahasiswa);
+    //untuk menampilkan data dari controller
+    app.route('/tampil')
+        .get(jsonku.tampilsemuamahasiswa);
+    app.route('/tampil/:id')
+        .get(jsonku.tampilberdasarkanid);
+    app.route('/tambah')
+        .post(jsonku.tambahMahasiswa);
+    app.route('/ubah')
+        .put(jsonku.ubahMahasiswa);
+    app.route('/hapus')
+        .delete(jsonku.hapusMahasiswa);
 }

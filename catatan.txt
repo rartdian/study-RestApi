@@ -36,3 +36,5 @@ install postman browser chrome
 isikan key dan value lalu send
 
 membuat module  merubah data berdasarkan id
+
+membuat module delete mhs
