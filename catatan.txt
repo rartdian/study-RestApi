@@ -38,3 +38,14 @@ isikan key dan value lalu send
 membuat module  merubah data berdasarkan id
 
 membuat module delete mhs
+
+membuat json seperti join, jadi satu mahasiswa bisa ambil krs banyak mata kuliah
+membuat tabel krs, tabel matakuliah
+di tabel krs
+membuat Foregn key yang merujuk tabel krs dan matakuliah
+
+//nested json
+satu mahasiswa bisa ambil banyak matakuliah
+SELECT mahasiswa.id_mahasiswa, mahasiswa.nim, mahasiswa.nama, mahasiswa.jurusan, matakuliah.matakuliah, matakuliah.sks
+from krs JOIN matakuliah JOIN mahasiswa WHERE krs.id_matakuliah = matakuliah.id_matakuliah AND krs.id_mahasiswa = mahasiswa.id_mahasiswa
+ORDER BY mahasiswa.id_mahasiswa
